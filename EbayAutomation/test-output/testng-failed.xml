@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.company.ebay.util.TestListners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.company.ebay.tests.SiginandBuyProductTest">
+        <methods>
+          <include name="cartandbuyproduct"/>
+          <include name="opendriver"/>
+          <include name="selectproduct"/>
+          <include name="appsignin"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.company.ebay.tests.SiginandBuyProductTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
